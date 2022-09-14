@@ -129,9 +129,18 @@ const getans = () =>{
  return ans;
 };
 
+const selectnone = () => {
+    answers.forEach((element) => {
+        element.checked = false;
+    });
+}
+
+
 button.addEventListener('click',() =>{
    
     const myans = getans();
+     
+     if(means){
     if(myans == Allquestion[conter].ans){
         score++;
     };
@@ -148,6 +157,7 @@ button.addEventListener('click',() =>{
             ` ;
             showscore.classList.remove('scores');
         }
+}
 
     });
 
