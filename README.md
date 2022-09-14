@@ -1,1 +1,1 @@
-#### [ Quiz App ](https://myquizans.netlify.app/)
+#### [ *Quiz App* ](https://myquizans.netlify.app/)
