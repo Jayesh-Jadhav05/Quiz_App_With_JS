@@ -145,6 +145,9 @@ button.addEventListener('click',() =>{
         score++;
     };
 
+     // Deselected the all options
+    selectnone();
+
     conter++;
     if(conter < Allquestion.length){
             adddata();
